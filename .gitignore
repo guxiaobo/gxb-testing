@@ -1,0 +1,8 @@
+
+.DS_Store
+calcite-testing/target/
+calcite-testing/.settings/
+calcite-testing/.DS_Store
+calcite-testing/.classpath
+calcite-testing/.project
+
