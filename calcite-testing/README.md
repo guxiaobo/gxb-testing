@@ -17,12 +17,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 -->
-# calcite-json-adapter
-
-A dynamic reflective calcite adapter for json lists.
-
-It contains calcite related classes to make Map<String, List < JSONObject> >
-
-a SQL queryable schema, with map keys as table names, and each List a table.
-
-For more details about Calcite, see the [home page](http://calcite.apache.org).
+# testing code
