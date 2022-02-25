@@ -1,4 +1,4 @@
-package com.xsmartware.testing.calcite;
+package com.xsmartware.common.calcite;
 
 import java.math.BigDecimal;
 import java.util.Date;

@@ -11,6 +11,7 @@ import org.apache.calcite.tools.RelConversionException;
 import org.apache.calcite.tools.ValidationException;
 import org.junit.Test;
 import com.xsmartware.common.calcite.CalciteDatabase;
+import com.xsmartware.common.calcite.DataObj;
 
 /***
  * using janino 3.1.4 will cause the following error
