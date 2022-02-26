@@ -44,9 +44,9 @@ public class Test1 {
 		Schema schema = new ReflectiveSchema(new DataObjSchema(data));
 		
 		CalciteDatabase db = new CalciteDatabase(schema, "s");
-		System.out.println("result 1 :" + db.exeGetLong("select max(id) from t1"));
+		System.out.println("result 1 :" + db.exeGetLong("select max(aid) from t1"));
 		System.out.println("result 2 :" + db.exeGetString("select name from t1 order by name desc limit 1"));
-		System.out.println("result 3 :" + db.exeGetTimestamp("select max(time) from t1 "));
+		System.out.println("result 3 :" + db.exeGetTimestamp("select max(atime) from t1 "));
 		System.out.println("result 4 :" + db.exeGetDecimal("select avg(amount) from t1 "));
 		System.out.println("result 5 :" + db.exeGetBoolean("select flag from t1 order by name asc limit 1 "));
 		
