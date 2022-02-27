@@ -38,7 +38,7 @@ public class Test1 {
 	
 	
 	@Test
-	public void Test1() throws SQLException, ValidationException, 
+	public void test1() throws SQLException, ValidationException, 
 	SqlParseException, RelConversionException {
 		
 		Schema schema = new ReflectiveSchema(new DataObjSchema(data));

@@ -6,3 +6,10 @@ calcite-testing/.DS_Store
 calcite-testing/.classpath
 calcite-testing/.project
 
+data-loader/.settings/
+data-loader/target/
+data-loader/.DS_Store
+data-loader/.classpath
+data-loader/.project
+
+
