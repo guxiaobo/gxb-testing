@@ -21,7 +21,7 @@ public class TestDataLoader implements DataLoader {
 	@Override
 	public CalciteDatabase loadData() throws SQLException {
 		Map<String, List<JSONObject>> map = makeJsonMap();
-		JsonSchema schema = new JsonSchema(map);
+		JsonSchema schema = new JsonSchema("js", map);
 		
 		return new CalciteDatabase(schema, "js");
 	}
